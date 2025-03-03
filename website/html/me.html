@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\programming\website\Css\me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>About me</title>
+</head>
+<body>
+    <div class="top-bar">
+        Home Page · Published
+    </div>
+    <div class="header">
+        <h1>About me</h1>
+        <div class="nav">
+            <a href="#">Services</a>
+            <a href="#">Course</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Login</a>
+            <a href="#" class="book-now">Book now</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="text-section">
+            <h1>Hello, <br> I'm Apea</h1>
+            <p class="fwords" > A professional computer engineer. I am a dedicated Computer Engineer with a robust knowledge of programming and web design. My passion for technology extends to cybersecurity, where I continuously explore and engage with the latest advancements in the field. Eager to apply my skills, I aim to contribute to innovative projects and collaborate with professionals who share my enthusiasm for technology and cybersecurity.</p>
+            <a href=""><button class="bt1" >Learn More</button></a>
+        </div>
+        <div class="image-section">
+            <img src="C:\programming\website\web\ll.png" alt="C:\Users\Akwal\OneDrive\Pictures\web\download (1).jpg">
+        </div>
+    </div>
+
+    <section class="featured-products">
+        <center><h1>Featured Products</h1></center>
+        <div class="products">
+            <div class="product">
+                <img src="C:\programming\website\web\me1 (2).jpg" alt="Password generator">
+                <p>Password generator</p>
+            </div>
+            <div class="product">
+                <img src="C:\programming\website\web\AI Adoption.jpg" alt="Github">
+                <p>Github</p>
+            </div>
+            <div class="product">
+                <img src="C:\programming\website\web\Cybersecurity.jpg" alt="Road in cybersecurity">
+                <p>Road in cybersecurity</p>
+            </div>
+        </div>
+        <center><button class="choose-me">CHOOSE ME</button></center>
+    </section>  
+
+    <div class="container">
+        <div class="services">
+            <h1>My Services</h1>
+            <p>I offer expert programming and web design services, leveraging my in-depth knowledge and hands-on experience. Additionally, as a cybersecurity enthusiast, I provide insights and solutions to enhance digital security and protect against cyber threats. I aim to deliver high-quality, innovative solutions tailored to your unique needs.</p>
+            <div class="service-item" onclick="toggleDetails('details1')">
+               <h2 class="service-words" >Full Stack Web Development</h2> 
+                <p class="details" id="details1"> I create full responsive wbsites. Whether you are a portfolio, small business or a big one, <a href="">I am only a click away</a>.</p>
+            </div>
+            <div class="service-item" onclick="toggleDetails('details2')">
+                <h2 class="service-words">Pc Technician</h2>
+                <p class="details" id="details2"> Need to setup Pc's for your business, service and maintain your Pc's or need consultation and recommendations on the Pc's for your business, <a href="">I'm here</a>.</p>
+            </div>
+            <div class="service-item" onclick="toggleDetails('details3')">
+                <h2 class="service-words">Cybersecurity</h2>
+                <p class="details" id="details3"> Do you need a Security Analyst, Security Engineer, or Threat Analyst, You are looking at his page.</p>
+            </div>
+            <button class="learn-more">Learn More</button>
+        </div>
+        <div class="image">
+            <img src="C:\programming\website\web\me.png" alt="Laptop on wooden surface">
+        </div>
+    </div>
+
+    <div class="kofi-body1">
+
+
+        <div class="container-99">
+            <div class="left">
+                <h1>Schedule your appointment</h1>
+                <p>Harness the power of strategic marketing insights by booking a consultation with my seasoned expertise. Discover how tailored solutions can elevate your brand's presence in an ever-evolving marketplace.</p>
+            </div>
+            <div class="right">
+                <div class="login">
+                    <a href="#">Returning? Log in</a>
+                </div>
+                <div class="form">
+                    <div class="step" id="step1">
+                        <h2>1. Choose Appointment</h2>
+                        <div class="appointment">
+                            <div class="option">
+                                <p>Free Consultation<br><span>30 minutes</span></p>
+                                <button onclick="nextStep(2)">Book</button>
+                            </div>
+                            <div class="option">
+                                <p>Basic Service<br><span>1 hour @ $10.00</span></p>
+                                <button onclick="nextStep(2)">Book</button>
+                            </div>
+                            <div class="option">
+                                <p>Advanced Service<br><span>1 hour @ $100.00</span></p>
+                                <button onclick="nextStep(2)">Book</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step" id="step2" style="display: none;">
+                        <h2>2. Your Information</h2>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email" >
+                        <a href="mailto:akwalife@outlook.com"><button onclick="nextStep(3)">Next</button></a>
+                    </div>
+                    <div class="step" id="step3" style="display: none;">
+                        <h2>3. Confirmation</h2>
+                        <p>Thank you for booking! We will contact you soon.</p>
+                    </div>
+                </div>
+                <div class="powered-by">
+                    <p>Powered by <span>CodeyTech</span></p>
+                </div>
+
+            </div>    
+        
+        </div>    
+    </div>
+    
+
+    <div class="bodybody">
+        <div class="container-77">
+            <h1>Akwalife</h1>
+            <p>Sign up with your email address to receive news and updates.</p>
+            <div class="signup">
+                <input type="email" placeholder="Email Address">
+                <button>SIGN UP</button>
+            </div>
+            <div class="follow-us">
+                <h2>Follow Us</h2>
+                <a href="https://www.linkedin.com/in/aninakwa-apea" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="tel:+233549937087"><i class="fas fa-phone"></i></a>
+                <a href="https://www.youtube.com/@Akwalife" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="C:\programming\website\Javascript\me.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,418 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.top-bar {
+    background-color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+    color: gray;
+    border-bottom: 1px solid #e0e0e0;
+}
+.header {
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+}
+
+.fwords{
+    height: 300px;
+    width: 400px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.book-now {
+    background-color: black;
+    color: white !important;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: ridge
+}
+.book-now:hover {
+    color: blue;
+}
+
+.bt1:hover{
+    color: rgb(211, 165, 108);
+
+}
+
+.bt1{
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-section {
+    max-width: 50%;
+    margin-left: 108px;
+}
+
+.text-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    /*font-size: 18px;*/
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.text-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.image-section {
+    max-width: 50%;
+    padding-right: 111px;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+.featured-products {
+    padding: 50px 0;
+}
+
+.featured-products h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.product p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.choose-me {
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.choose-me:hover {
+    background-color: #333;
+}
+
+
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.services {
+    padding: 139px;
+    flex: 1;
+    margin-top: -113px;
+}
+
+.services h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.service-item {
+    margin-bottom: 20px;
+    
+}
+
+.service-words{
+    padding: 10px 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    
+
+}
+
+.service-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.kofi-body1{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container-99 {
+    display: flex;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+    flex: 1;
+    padding: 40px;
+}
+
+.left h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.left p {
+    font-size: 1em;
+    color: #555;
+}
+
+.right {
+    flex: 1;
+    padding: 40px;
+    border-left: 1px solid #ddd;
+}
+
+.login {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.login a {
+    color: #000;
+    text-decoration: none;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.step {
+    margin-bottom: 20px;
+}
+
+.step h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.appointment {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.option p {
+    margin: 0;
+}
+
+.option span {
+    color: #888;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+.powered-by {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.powered-by span {
+    font-weight: bold;
+}
+
+
+
+
+.bodybody {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #fff;
+}
+
+.container-77 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.signup input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.signup button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.signup button:hover {
+    background-color: #333;
+}
+
+.follow-us {
+    margin-top: 40px;
+}
+
+.follow-us h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.follow-us a {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #000;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.follow-us a:hover {
+    color: #555;
+}
